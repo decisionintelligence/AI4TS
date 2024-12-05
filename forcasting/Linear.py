@@ -103,7 +103,7 @@ batch_size = 64
 # 设置学习率，用于优化器更新模型参数的步长
 learning_rate = 1e-3
 # 指定数据集的路径
-data_path = 'data/ETTm2.csv'
+data_path = 'forcasting/data/ETTm2.csv'
 # 检查是否有可用的GPU，如果有则使用GPU，否则使用CPU
 if torch.cuda.is_available():
     device = 'cuda'
