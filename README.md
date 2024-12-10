@@ -5,7 +5,7 @@
 
 ## 模型说明
 ### 时序预测
-`forcasting/Linear.py`: 使用Linear模型进行时间序列预测。
+`forecasting/Linear.py`: 使用Linear模型进行时间序列预测。
 
 ## 环境准备
 ```bash
