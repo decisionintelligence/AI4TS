@@ -81,27 +81,44 @@ class TimeSeriesDecomposition:
 
 # 示例用法
 if __name__ == "__main__":
-    # 生成一个示例时间序列数据
-    data = pd.Series([1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987])
+    # 读取ETTm2.csv数据集，将date列解析为日期时间类型并设置为索引
+    file_path = 'chap2_basic_concept/data/ETTm2.csv'
+    df = pd.read_csv(file_path, parse_dates=['date'], index_col='date')
+
+    # 以单变量时序数据为例，选择一个字段作为时间序列数据，这里选择 'OT' 字段
+    data = df['OT']
 
     # 创建TimeSeriesDecomposition对象
     ts_decomp = TimeSeriesDecomposition(data)
 
     # 经典分解法
     trend, seasonal, residual = ts_decomp.classical_decomposition(seasonal_periods=3)
-    print("经典分解法（加性模型）:")
-    print("趋势项:\n", trend)
-    print("季节项:\n", seasonal)
-    print("残差项:\n", residual)
+    trend_df = trend.reset_index()
+    trend_df.columns = ['date', 'trend']
+    trend_df.to_csv('chap2_basic_concept/data/Decomposition_Results/classical_trend.csv', index=False)
+
+    seasonal_df = seasonal.reset_index()
+    seasonal_df.columns = ['date', 'seasonal']
+    seasonal_df.to_csv('chap2_basic_concept/data/Decomposition_Results/classical_seasonal.csv', index=False)
+
+    residual_df = residual.reset_index()
+    residual_df.columns = ['date', 'residual']
+    residual_df.to_csv('chap2_basic_concept/data/Decomposition_Results/classical_residual.csv', index=False)
 
     # 基函数扩展
     trend, residual = ts_decomp.basis_function_expansion(num_components=3)
-    print("\n基函数扩展:")
-    print("趋势项:\n", trend)
-    print("残差项:\n", residual)
+    trend_series = pd.Series(trend, index=data.index, name='trend')
+    trend_series.reset_index().to_csv('chap2_basic_concept/data/Decomposition_Results/basis_trend.csv', index=False)
+
+    residual_df = residual.reset_index()
+    residual_df.columns = ['date', 'residual']
+    residual_df.to_csv('chap2_basic_concept/data/Decomposition_Results/basis_residual.csv', index=False)
 
     # 矩阵分解
     decomposed, residual = ts_decomp.matrix_decomposition(rank=2)
-    print("\n矩阵分解 (SVD):")
-    print("分解后的结果:\n", decomposed)
-    print("残差项:\n", residual)
+    decomposed_df = pd.DataFrame(decomposed, index=data.index, columns=['component_1', 'component_2'])
+    decomposed_df.reset_index().to_csv('chap2_basic_concept/data/Decomposition_Results/matrix_decomposed.csv', index=False)
+
+    residual_df = residual.reset_index()
+    residual_df.columns = ['date', 'residual']
+    residual_df.to_csv('chap2_basic_concept/data/Decomposition_Results/matrix_residual.csv', index=False)

@@ -33,7 +33,6 @@ class TimeSeriesSmoothing:
             weights = np.array(weights)  # 将权重转换为numpy数组
         return self.data.rolling(window=window).apply(lambda x: np.dot(x, weights) / weights.sum(), raw=True)
 
-
     # 一次指数平滑 (Single Exponential Smoothing)
     def exponential_smoothing(self, alpha):
         """
@@ -88,15 +87,34 @@ class TimeSeriesSmoothing:
 
         for label, smoothed_series in smoothed_series_dict.items():
             plt.plot(smoothed_series, label=label, linewidth=2)
-        
+
         plt.title("Smoothed Time Series")
         plt.legend(loc="best")
         plt.show()
 
+    # 保存平滑结果到文件
+    def save_smoothed_series(self, smoothed_series_dict, save_dir='chap2_basic_concept/data/Smoothing_Results'):
+        """
+        保存平滑后的时间序列到文件
+        :param smoothed_series_dict: 包含每种平滑方法及其结果的字典
+        :param save_dir: 保存文件的目录
+        """
+        import os
+        if not os.path.exists(save_dir):
+            os.makedirs(save_dir)
+
+        for label, smoothed_series in smoothed_series_dict.items():
+            file_name = f"{save_dir}/{label.replace(' ', '_')}.csv"
+            smoothed_series.reset_index().to_csv(file_name, index=False)
+
 # 示例使用
 if __name__ == "__main__":
-    # 生成一个示例时序数据
-    data = pd.Series([1, 2, 3, 5, 8, 28, 21, 34, 55, 89, 144, 77, 66, 89, 102,134, 144,89,99])
+    # 读取ETTm2.csv数据集，将date列解析为日期时间类型并设置为索引
+    file_path = 'chap2_basic_concept/data/ETTm2.csv'
+    df = pd.read_csv(file_path, parse_dates=['date'], index_col='date')
+
+    # 选择一个字段作为时间序列数据，这里选择 'OT' 字段
+    data = df['OT']
     print("原始数据:\n", data)
 
     # 创建TimeSeriesSmoothing对象
@@ -117,6 +135,9 @@ if __name__ == "__main__":
         "Double Exponential Smoothing": smoothed_des,
         "Holt-Winters (Triple Exponential Smoothing)": smoothed_holt_winters
     }
+
+    # 保存平滑结果到文件
+    smoothing.save_smoothed_series(smoothed_series_dict)
 
     # 可视化所有平滑结果
     smoothing.plot_smoothed_series(smoothed_series_dict)
