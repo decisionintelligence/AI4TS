@@ -145,6 +145,7 @@ def revin_transform(series, gamma=1.0, beta=0.0):
 
 def revin_inverse(normalized_series, mu, sigma, gamma=1.0, beta=0.0):
     '''
+        RevIN 的逆变换，用于恢复原始序列
     输入：
         normalized_series: 经 RevIN 处理后的序列（pd.Series）
         mu: 原始序列均值
@@ -160,11 +161,13 @@ def revin_inverse(normalized_series, mu, sigma, gamma=1.0, beta=0.0):
     recovered_series = pd.Series(recovered, index=normalized_series.index, name='OT_RevIN_Inverse')
     return recovered_series
 
+# -------------------------------
+# 4. 分片归一化 （SAN，Shard-wise Adaptive Normalization）
+# -------------------------------
 def san_transform(series, num_shards=10):
     """
-    分片归一化（SAN，Shard-wise Adaptive Normalization）
     
-    参数：
+    输入：
         series: 待归一化的时间序列 (pd.Series)
         num_shards: 分片数量，默认划分为 10 个分片（如果序列长度不足，最后一个分片可能会包含余数数据）
     
