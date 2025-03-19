@@ -12,6 +12,8 @@
 `Stabilization_processing.py`
 ### 时间序列缺失值处理
 `Missing_value_processing.py`
+### 傅里叶变换
+`Fourier_transform.py`
 ## 环境准备
 ```bash
 pip install -r requirements.txt

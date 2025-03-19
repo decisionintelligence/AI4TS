@@ -197,28 +197,7 @@ def san_transform(series, num_shards=10):
     normalized_series.name = 'OT_SAN'
     return normalized_series
 
-# -------------------------------
-# 5. 时域转频域 (Fourier Transform)
-# -------------------------------
 
-def fourier_transform(series):
-    """
-    将时域数据转换为频域数据，利用傅里叶变换
-    参数:
-        series: 输入的时间序列 (pd.Series)
-    返回:
-        freq: 非负频率数组 (numpy array)，单位为 Hz
-        amplitude: 对应频率下的幅值 (numpy array)
-    """
-    # 计算采样时间间隔（假定时间索引为均匀采样），单位：秒
-    dt = (series.index[1] - series.index[0]).total_seconds()
-    fft_result = np.fft.fft(series.values)
-    fft_freq = np.fft.fftfreq(len(series), d=dt)
-    # 取出非负频率部分
-    mask = fft_freq >= 0
-    freq = fft_freq[mask]
-    amplitude = np.abs(fft_result[mask])
-    return freq, amplitude
 
 # -------------------------------
 # 示例用法
@@ -270,8 +249,3 @@ if __name__ == "__main__":
     san_result = san_transform(data, num_shards=10).reset_index()
     san_result.to_csv(os.path.join(save_dir, 'san_result.csv'), index=False)
 
-    # 时域转频域（Fourier Transform）
-    freq, amplitude = fourier_transform(data)
-    # 构造频域数据 DataFrame，并保存
-    fourier_df = pd.DataFrame({'Frequency (Hz)': freq, 'Amplitude': amplitude})
-    fourier_df.to_csv(os.path.join(save_dir, 'fourier_transform.csv'), index=False)
