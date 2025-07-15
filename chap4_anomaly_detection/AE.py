@@ -88,7 +88,7 @@ epochs = 10
 seq_len = 96
 batch_size = 64
 learning_rate = 1e-3
-data_path = r'D:\OverLeaf写书\Time_Series_Analytics-main\Time_Series_Analytics-main\chap4_anomaly_detection\data\ETTm2.csv'
+data_path = 'chap4_anomaly_detection\data\ETTm2.csv'
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 ## 加载数据
