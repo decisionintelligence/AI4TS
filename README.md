@@ -1,27 +1,28 @@
-# Time Series Analytics
+# AI4TS - AI for Time Series
 
 A comprehensive time series analysis project covering data preprocessing, forecasting, anomaly detection, and classification using deep learning models.
 
 ## Project Structure
 
 ```
-Time_Series_Analytics/
-├── chap2_basic_concept/          # Basic Concepts
-│   ├── Decomposition_processing.py     # Time series decomposition
-│   ├── Smoothing_processing.py         # Smoothing techniques
-│   ├── Stabilization_processing.py     # Stationarization methods
-│   ├── Missing_value_processing.py     # Missing value imputation
-│   ├── Fourier_transform.py            # Fourier analysis
-│   └── data/
-├── chap3_forecasting/             # Time Series Forecasting
-│   ├── Linear.py, CNN.py, RNN.py, TCN.py, Transformer.py
-│   └── data/
-├── chap4_anomaly_detection/       # Anomaly Detection
-│   ├── AE.py, CNN.py, RNN.py, TCN.py, Transformer.py, VAE.py
-│   └── data/
-├── chap5_classification/          # Time Series Classification
-│   ├── Linear.py, CNN.py, RNN.py, TCN.py, Transformer.py
-│   └── data/
+AI4TS/
+├── code/
+│   ├── chap2_basic_concept/          # Basic Concepts
+│   │   ├── Decomposition_processing.py     # Time series decomposition
+│   │   ├── Smoothing_processing.py         # Smoothing techniques
+│   │   ├── Stabilization_processing.py     # Stationarization methods
+│   │   ├── Missing_value_processing.py     # Missing value imputation
+│   │   ├── Fourier_transform.py            # Fourier analysis
+│   │   └── data/
+│   ├── chap3_forecasting/             # Time Series Forecasting
+│   │   ├── Linear.py, CNN.py, RNN.py, TCN.py, Transformer.py
+│   │   └── data/
+│   ├── chap4_anomaly_detection/       # Anomaly Detection
+│   │   ├── AE.py, CNN.py, RNN.py, TCN.py, Transformer.py, VAE.py
+│   │   └── data/
+│   ├── chap5_classification/          # Time Series Classification
+│   │   ├── Linear.py, CNN.py, RNN.py, TCN.py, Transformer.py
+│   │   └── data/
 ├── requirements.txt
 └── README.md
 ```
@@ -36,22 +37,22 @@ pip install -r requirements.txt
 ### Datasets
 - **ETTm2**: For forecasting and anomaly detection
   - Download from: [Google Drive](https://drive.google.com/file/d/1v5az7yXB5J4se5UHrmXzedSCrMlDWAtH/view?usp=sharing)
-  - Place in: `chap2_basic_concept/data/` and `chap3_forecasting/data/`
+  - Place in: `code/chap2_basic_concept/data/` and `code/chap3_forecasting/data/`
 
 - **ACSF1**: For classification (UCR archive)
   - Download from: [UCR Time Series Classification](https://timeseriesclassification.com/dataset.php)
-  - Place in: `chap5_classification/data/ACSF1/`
+  - Place in: `code/chap5_classification/data/ACSF1/`
 
 ### Run Examples
 ```bash
 # Basic concepts
-python chap2_basic_concept/Decomposition_processing.py
+python code/chap2_basic_concept/Decomposition_processing.py
 
 # Forecasting models
-python chap3_forecasting/Linear.py
+python code/chap3_forecasting/Linear.py
 
 # Classification models  
-python chap5_classification/Linear.py
+python code/chap5_classification/Linear.py
 ```
 
 ## Key Features
@@ -88,4 +89,3 @@ python chap5_classification/Linear.py
 ## Contributing
 
 Contributions welcome! Please fork the repository and create a pull request.
-
