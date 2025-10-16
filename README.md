@@ -33,9 +33,7 @@
 
 ### **核心编写组**
 
-该书编写工作由[<b>华东师范大学决策智能实验室(Decision Intelligence Lab)</b>](https://decisionintelligence.github.io/index)成员共同参与完成，
-
-负责教材的章节编写、案例设计、实验验证与配套资源开发。
+该书编写工作由[<b>华东师范大学决策智能实验室(Decision Intelligence Lab)</b>](https://decisionintelligence.github.io/index)成员共同参与完成，负责教材的章节编写、案例设计、实验验证与配套资源开发。
 
 参与成员如下（按照姓名音序排列）：
 
