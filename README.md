@@ -13,7 +13,7 @@
 
 ## **章节结构**
 
-<img src="./content.svg">
+<img src="./figure/content.svg">
 
 ## **关于作者**
 
