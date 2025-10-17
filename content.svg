@@ -48,7 +48,7 @@
                         <p style="margin-top:10px;text-indent:2em">3.1 时间序列预测定义及流程</p>
                         <p style="margin-top:10px;text-indent:2em">3.2 时间序列预测模型训练与评估</p>
                         <p style="margin-top:10px;text-indent:2em">3.3 时间序列预测模型</p>
-                        <p style="margin-top:10px;text-indent:2em">3.4 通道关系</p>
+                        <p style="margin-top:10px;text-indent:2em">3.4 时间序列通道关系</p>
                         <p style="margin-top:10px;text-indent:2em">3.5 时间序列概率预测</p>
                     </div>
                     <div>
@@ -105,4 +105,5 @@
             </div>
         </div>
     </foreignObject>
+
 </svg>
