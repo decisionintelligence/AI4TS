@@ -79,7 +79,7 @@
                     </div>
                     <div>
                         <h3 style="border-bottom: 3px solid #333; width:60%;">第7章：时间序列基础模型</h3>
-                        <p style="margin-top:10px;text-indent:2em">7.1 时间序列预训练基础模型</p>
+                        <p style="margin-top:10px;text-indent:2em">7.1 时间序列基础模型</p>
                         <p style="margin-top:10px;text-indent:2em">7.2 基于大语言模型的时间序列基础模型</p>
                     </div>
                     <div>
@@ -107,5 +107,6 @@
     </foreignObject>
 
 </svg>
+
 
 
