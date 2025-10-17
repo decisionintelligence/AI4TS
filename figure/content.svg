@@ -82,7 +82,7 @@
                         <p style="margin-top:10px;text-indent:2em">7.2 基于大语言模型的时间序列基础模型</p>
                     </div>
                     <div>
-                        <h3 style="border-bottom: 3px solid #333; width: 80%;">第8章：时间序列评测基准</h3>
+                        <h3 style="border-bottom: 3px solid #333; width: 60%;">第8章：时间序列评测基准</h3>
                         <p style="margin-top:10px;text-indent:2em">8.1 测评基准定义</p>
                         <p style="margin-top:10px;text-indent:2em">8.2 构建测评基准意义</p>
                         <p style="margin-top:10px;text-indent:2em">8.3 时间序列测评基准的发展脉络</p>
@@ -93,7 +93,7 @@
                         <p style="margin-top:10px;text-indent:2em">8.8 测评框架设定思路</p>
                     </div>
                     <div>
-                        <h3 style="border-bottom: 3px solid #333; width: 80%;">第9章：神经微分方程时间序列分析</h3>
+                        <h3 style="border-bottom: 3px solid #333; width: fit-content;">第9章：神经微分方程时间序列分析</h3>
                         <p style="margin-top:10px;text-indent:2em">9.1 微分方程与时间序列</p>
                         <p style="margin-top:10px;text-indent:2em">9.2 神经微分方程简介（NeuralODE）</p>
                         <p style="margin-top:10px;text-indent:2em">9.3 常微分方程求解的反模式自动求导</p>
@@ -106,6 +106,7 @@
     </foreignObject>
 
 </svg>
+
 
 
 
