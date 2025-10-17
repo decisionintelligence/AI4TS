@@ -26,83 +26,83 @@
                     margin-bottom: 5px;
                 }
             </style>
-            <div style="display:grid;grid-template-columns: 1fr 1fr;">
-<div>
-<div>
-<h3 style="border-bottom: 3px solid #333; width:60%">第1章：介绍</h3>
-<p style="margin-top:10px;text-indent:2em">1.1 读者对象</p>
-<p style="margin-top:10px;text-indent:2em">1.2 本书结构</p>
-<p style="margin-top:10px;text-indent:2em">1.3 初识时间序列</p>
-<p style="margin-top:10px;text-indent:2em">1.4 时间序列的定义和分类</p>
-<p style="margin-top:10px;text-indent:2em">1.5 时间序列算法的发展历程</p>
-</div>
-<div>
-<h3 style="border-bottom: 3px solid #333; width:60%">第2章：基础概念</h3>
-<p style="margin-top:10px;text-indent:2em">2.1 时间序列数据概述</p>
-<p style="margin-top:10px;text-indent:2em">2.2 时间序列数据治理</p>
-<p style="margin-top:10px;text-indent:2em">2.3 时间序列数据建模角度</p>
-<p style="margin-top:10px;text-indent:2em">2.4 基础深度学习模型</p>
-</div>
-<div>
-<h3 style="border-bottom: 3px solid #333; width:60%">第3章：时间序列预测</h3>
-<p style="margin-top:10px;text-indent:2em">3.1 时间序列预测定义及流程</p>
-<p style="margin-top:10px;text-indent:2em">3.2 时间序列预测模型训练与评估</p>
-<p style="margin-top:10px;text-indent:2em">3.3 时间序列预测模型</p>
-<p style="margin-top:10px;text-indent:2em">3.4 时间序列通道关系</p>
-<p style="margin-top:10px;text-indent:2em">3.5 时间序列概率预测</p>
-</div>
-<div>
-<h3 style="border-bottom: 3px solid #333; width:60%">第4章：时间序列异常检测</h3>
-<p style="margin-top:10px;text-indent:2em">4.1 时间序列异常检测定义及流程</p>
-<p style="margin-top:10px;text-indent:2em">4.2 时间序列异常类型</p>
-<p style="margin-top:10px;text-indent:2em">4.3 时间序列异常检测模型训练与评估</p>
-<p style="margin-top:10px;text-indent:2em">4.4 时间序列异常检测模型</p>
-</div>
-<div>
-<h3 style="border-bottom: 3px solid #333; width:60%">第5章：时间序列分类</h3>
-<p style="margin-top:10px;text-indent:2em">5.1 时间序列分类定义及流程</p>
-<p style="margin-top:10px;text-indent:2em">5.2 时间序列分类模型训练与评估</p>
-<p style="margin-top:10px;text-indent:2em">5.3 时间序列分类模型</p>
-<p style="margin-top:10px;text-indent:2em">5.4 时间序列分类自监督方法</p>
-</div>
-</div>
-<div>
-<div>
-<h3 style="border-bottom: 3px solid #333; width:60%">第6章：自动化时间序列分析</h3>
-<div>
-<p style="margin-top:10px;text-indent:2em">6.1 时间序列分析自动化简介</p>
-<p style="margin-top:10px;text-indent:2em">6.2 时间序列分析模型自动选择</p>
-<p style="margin-top:10px;text-indent:2em">6.3 时间序列分析模型自动集成</p>
-<p style="margin-top:10px;text-indent:2em">6.4 时间序列分析模型自动设计</p>
-</div>
-<div>
-<h3 style="border-bottom: 3px solid #333; width:60%;">第7章：时间序列基础模型</h3>
-<p style="margin-top:10px;text-indent:2em">7.1 时间序列预训练基础模型</p>
-<p style="margin-top:10px;text-indent:2em">7.2 基于大语言模型的时间序列基础模型</p>
-</div>
-  <div>
-  <h3 style="border-bottom: 3px solid #333; width: fit-content; padding-right:25px">第8章：时间序列评测基准：OpenTS-Bench</h3>
-  <p style="margin-top:10px;text-indent:2em">8.1 测评基准定义</p>
-  <p style="margin-top:10px;text-indent:2em">8.2 构建测评基准意义</p>
-  <p style="margin-top:10px;text-indent:2em">8.3 时间序列测评基准的发展脉络</p>
-  <p style="margin-top:10px;text-indent:2em">8.4 数据集构成</p>
-  <p style="margin-top:10px;text-indent:2em">8.5 评价指标</p>
-  <p style="margin-top:10px;text-indent:2em">8.6 数据集划分方式</p>
-  <p style="margin-top:10px;text-indent:2em">8.7 基线方法选择策略</p>
-  <p style="margin-top:10px;text-indent:2em">8.8 测评框架设定思路</p>
-  </div>
-  <div>
-  <h3 style="border-bottom: 3px solid #333; width: 60%;">第9章：神经微分方程时间序列分析</h3>
-  <p style="margin-top:10px;text-indent:2em">9.1 微分方程与时间序列</p>
-  <p style="margin-top:10px;text-indent:2em">9.2 神经微分方程简介（NeuralODE）</p>
-  <p style="margin-top:10px;text-indent:2em">9.3 常微分方程求解的反模式自动求导</p>
-  <p style="margin-top:10px;text-indent:2em">9.4 基于神经微分方程的时序建模</p>
-  <p style="margin-top:10px;text-indent:2em">9.5 相关应用研究</p>
-  </div>
-</div>
-</div>
-</div>
+            <div class="container" style="display:grid;grid-template-columns: 1fr 1fr;">
+                <div>
+                    <div>
+                        <h3 style="border-bottom: 3px solid #333; width:60%">第1章：介绍</h3>
+                        <p style="margin-top:10px;text-indent:2em">1.1 读者对象</p>
+                        <p style="margin-top:10px;text-indent:2em">1.2 本书结构</p>
+                        <p style="margin-top:10px;text-indent:2em">1.3 初识时间序列</p>
+                        <p style="margin-top:10px;text-indent:2em">1.4 时间序列的定义和分类</p>
+                        <p style="margin-top:10px;text-indent:2em">1.5 时间序列算法的发展历程</p>
+                    </div>
+                    <div>
+                        <h3 style="border-bottom: 3px solid #333; width:60%">第2章：基础概念</h3>
+                        <p style="margin-top:10px;text-indent:2em">2.1 时间序列数据概述</p>
+                        <p style="margin-top:10px;text-indent:2em">2.2 时间序列数据治理</p>
+                        <p style="margin-top:10px;text-indent:2em">2.3 时间序列数据建模角度</p>
+                        <p style="margin-top:10px;text-indent:2em">2.4 基础深度学习模型</p>
+                    </div>
+                    <div>
+                        <h3 style="border-bottom: 3px solid #333; width:60%">第3章：时间序列预测</h3>
+                        <p style="margin-top:10px;text-indent:2em">3.1 时间序列预测定义及流程</p>
+                        <p style="margin-top:10px;text-indent:2em">3.2 时间序列预测模型训练与评估</p>
+                        <p style="margin-top:10px;text-indent:2em">3.3 时间序列预测模型</p>
+                        <p style="margin-top:10px;text-indent:2em">3.4 时间序列通道关系</p>
+                        <p style="margin-top:10px;text-indent:2em">3.5 时间序列概率预测</p>
+                    </div>
+                    <div>
+                        <h3 style="border-bottom: 3px solid #333; width:60%">第4章：时间序列异常检测</h3>
+                        <p style="margin-top:10px;text-indent:2em">4.1 时间序列异常检测定义及流程</p>
+                        <p style="margin-top:10px;text-indent:2em">4.2 时间序列异常类型</p>
+                        <p style="margin-top:10px;text-indent:2em">4.3 时间序列异常检测模型训练与评估</p>
+                        <p style="margin-top:10px;text-indent:2em">4.4 时间序列异常检测模型</p>
+                    </div>
+                    <div>
+                        <h3 style="border-bottom: 3px solid #333; width:60%">第5章：时间序列分类</h3>
+                        <p style="margin-top:10px;text-indent:2em">5.1 时间序列分类定义及流程</p>
+                        <p style="margin-top:10px;text-indent:2em">5.2 时间序列分类模型训练与评估</p>
+                        <p style="margin-top:10px;text-indent:2em">5.3 时间序列分类模型</p>
+                        <p style="margin-top:10px;text-indent:2em">5.4 时间序列分类自监督方法</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3 style="border-bottom: 3px solid #333; width:65%">第6章：自动化时间序列分析</h3>
+                        <div>
+                            <p style="margin-top:10px;text-indent:2em">6.1 时间序列分析自动化简介</p>
+                            <p style="margin-top:10px;text-indent:2em">6.2 时间序列模型自动选择</p>
+                            <p style="margin-top:10px;text-indent:2em">6.3 时间序列模型自动集成</p>
+                            <p style="margin-top:10px;text-indent:2em">6.4 时间序列模型自动设计</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 style="border-bottom: 3px solid #333; width:60%;">第7章：时间序列基础模型</h3>
+                        <p style="margin-top:10px;text-indent:2em">7.1 时间序列预训练基础模型</p>
+                        <p style="margin-top:10px;text-indent:2em">7.2 基于大语言模型的时间序列基础模型</p>
+                    </div>
+                    <div>
+                        <h3 style="border-bottom: 3px solid #333; width: 80%;">第8章：时间序列评测基准：OpenTS-Bench</h3>
+                        <p style="margin-top:10px;text-indent:2em">8.1 测评基准定义</p>
+                        <p style="margin-top:10px;text-indent:2em">8.2 构建测评基准意义</p>
+                        <p style="margin-top:10px;text-indent:2em">8.3 时间序列测评基准的发展脉络</p>
+                        <p style="margin-top:10px;text-indent:2em">8.4 数据集构成</p>
+                        <p style="margin-top:10px;text-indent:2em">8.5 评价指标</p>
+                        <p style="margin-top:10px;text-indent:2em">8.6 数据集划分方式</p>
+                        <p style="margin-top:10px;text-indent:2em">8.7 基线方法选择策略</p>
+                        <p style="margin-top:10px;text-indent:2em">8.8 测评框架设定思路</p>
+                    </div>
+                    <div>
+                        <h3 style="border-bottom: 3px solid #333; width: 80%;">第9章：神经微分方程时间序列分析</h3>
+                        <p style="margin-top:10px;text-indent:2em">9.1 微分方程与时间序列</p>
+                        <p style="margin-top:10px;text-indent:2em">9.2 神经微分方程简介（NeuralODE）</p>
+                        <p style="margin-top:10px;text-indent:2em">9.3 常微分方程求解的反模式自动求导</p>
+                        <p style="margin-top:10px;text-indent:2em">9.4 基于神经微分方程的时序建模</p>
+                        <p style="margin-top:10px;text-indent:2em">9.5 相关应用研究</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </foreignObject>
 
 </svg>
-
