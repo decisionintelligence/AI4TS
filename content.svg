@@ -71,9 +71,9 @@
                         <h3 style="border-bottom: 3px solid #333; width:65%">第6章：自动化时间序列分析</h3>
                         <div>
                             <p style="margin-top:10px;text-indent:2em">6.1 时间序列分析自动化简介</p>
-                            <p style="margin-top:10px;text-indent:2em">6.2 时间序列模型自动选择</p>
-                            <p style="margin-top:10px;text-indent:2em">6.3 时间序列模型自动集成</p>
-                            <p style="margin-top:10px;text-indent:2em">6.4 时间序列模型自动设计</p>
+                            <p style="margin-top:10px;text-indent:2em">6.2 时间序列分析模型自动选择</p>
+                            <p style="margin-top:10px;text-indent:2em">6.3 时间序列分析模型自动集成</p>
+                            <p style="margin-top:10px;text-indent:2em">6.4 时间序列分析模型自动设计</p>
                         </div>
                     </div>
                     <div>
@@ -106,3 +106,4 @@
     </foreignObject>
 
 </svg>
+
