@@ -95,7 +95,7 @@
                     <div>
                          <h3 style="border-bottom: 3px solid #333; width: fit-content">第9章：神经微分方程时间序列分析</h3>
                           <p style="margin-top:10px;text-indent:2em">9.1 微分方程与时间序列</p>
-                          <p style="margin-top:10px;text-indent:2em">9.2 神经微分方程简介（NeuralODE）</p>
+                          <p style="margin-top:10px;text-indent:2em">9.2 神经微分方程简介</p>
                           <p style="margin-top:10px;text-indent:2em">9.3 常微分方程求解的反模式自动求导</p>
                           <p style="margin-top:10px;text-indent:2em">9.4 基于神经微分方程的时序建模</p>
                           <p style="margin-top:10px;text-indent:2em">9.5 相关应用研究</p>
@@ -106,6 +106,7 @@
     </foreignObject>
 
 </svg>
+
 
 
 
