@@ -1,5 +1,5 @@
 
-# **时序智能——面向时间序列分析的人工智能方法** 
+# **<p align="center">时序智能——面向时间序列分析的人工智能方法 </p>**
 
 <div align=center>
 <img src="./cover.jpg" width="60%">
