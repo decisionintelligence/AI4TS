@@ -52,3 +52,12 @@
 公众号：DI DaSE ECNU
 
 <img src="./figure/Wechat-DI DaSE.jpg" width="20%">
+
+## License
+
+本教材项目包含两部分内容，授权方式如下：
+
+- **教材文字与图像内容**：使用 [CC BY-NC-ND 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/) 授权。  允许非商业性转载与分享，但禁止修改或衍生使用。  
+
+- **示例代码**：使用 [MIT License](https://opensource.org/licenses/MIT) 授权。  可自由使用、修改与分发，请保留署名信息。
+
