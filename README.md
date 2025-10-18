@@ -50,3 +50,5 @@
 对于所有贡献意见的读者，我们将表示由衷的感谢。
 
 公众号：DI DaSE ECNU
+
+<img src="./figure/Wechat-DI DaSE.jpg" width="20%">
