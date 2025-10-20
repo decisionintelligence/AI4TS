@@ -5,7 +5,7 @@
 ## 项目结构
 
 ```
-AI4TS/Code/
+《时序智能》/Code/
 ├── README.md                          # 本说明文档
 ├── requirements.txt                   # 依赖包列表
 ├── chap2_basic_concept/               # 基础概念
