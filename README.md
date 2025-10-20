@@ -64,13 +64,13 @@
 
 
 
-### 引用本书
+### 引用本文
 
-如果您在研究或教学中使用了本书内容，请按以下格式引用：
+如果您在研究或教学中使用了本文内容，请按以下格式引用：
 
 ```
 @misc{guo2025ai4ts,
-  author       = {郭晨娟 and 杨彬 and 胡吉林 and 树扬 and others},
+  author       = {郭晨娟  杨彬 and 胡吉林 and 树扬 and 等},
   title        = {时序智能——面向时间序列分析的人工智能方法},
   year         = {2025},
   url          = {https://github.com/decisionintelligence/AI4TS},
