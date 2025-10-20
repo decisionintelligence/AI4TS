@@ -74,6 +74,6 @@
   title        = {时序智能——面向时间序列分析的人工智能方法},
   year         = {2025},
   url          = {https://github.com/decisionintelligence/AI4TS},
-  note         = {Text and figures: CC BY-NC-ND 4.0. Code examples: MIT License. Version 1.0.}
+  note         = {文字与图像内容：CC BY-NC-ND 4.0. 示例代码：MIT License. Version 1.0.}
 }
 ```
