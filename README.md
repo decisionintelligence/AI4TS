@@ -53,7 +53,7 @@
 
 <img src="./figure/Wechat-DI DaSE.jpg" width="20%">
 
-## License
+### License
 
 本教材项目包含两部分内容，授权方式如下：
 
@@ -61,3 +61,17 @@
 
 - **示例代码**：使用 [MIT License](https://opensource.org/licenses/MIT) 授权。  可自由使用、修改与分发，请保留署名信息。
 
+
+### 引用本书
+
+如果您在研究或教学中使用了本书内容，请按以下格式引用：
+
+```
+@misc{guo2025ai4ts,
+  author       = {郭晨娟 等},
+  title        = {时序智能——面向时间序列分析的人工智能方法},
+  year         = {2025},
+  url          = {https://github.com/decisionintelligence/AI4TS},
+  note         = {Text and figures: CC BY-NC-ND 4.0. Code examples: MIT License. Version 1.0.}
+}
+```
