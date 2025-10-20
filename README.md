@@ -62,13 +62,15 @@
 - **示例代码**：使用 [MIT License](https://opensource.org/licenses/MIT) 授权。  可自由使用、修改与分发，请保留署名信息。
 
 
+
+
 ### 引用本书
 
 如果您在研究或教学中使用了本书内容，请按以下格式引用：
 
 ```
 @misc{guo2025ai4ts,
-  author       = {郭晨娟 等},
+  author       = {郭晨娟 and 杨彬 and 胡吉林 and 树扬 and others},
   title        = {时序智能——面向时间序列分析的人工智能方法},
   year         = {2025},
   url          = {https://github.com/decisionintelligence/AI4TS},
