@@ -83,26 +83,24 @@
                     </div>
                     <div>
                        <h3 style="border-bottom: 3px solid #333; width:60%;">第8章：时间序列评测基准</h3>
-                          <p style="margin-top:10px;text-indent:2em">8.1 测评基准定义</p>
-                          <p style="margin-top:10px;text-indent:2em">8.2 构建测评基准意义</p>
-                          <p style="margin-top:10px;text-indent:2em">8.3 时间序列测评基准的发展脉络</p>
-                          <p style="margin-top:10px;text-indent:2em">8.4 数据集构成</p>
-                          <p style="margin-top:10px;text-indent:2em">8.5 评价指标</p>
-                          <p style="margin-top:10px;text-indent:2em">8.6 数据集划分方式</p>
-                          <p style="margin-top:10px;text-indent:2em">8.7 基线方法选择策略</p>
-                          <p style="margin-top:10px;text-indent:2em">8.8 测评框架设定思路</p>
+                           <p style="margin-top:10px;text-indent:2em">8.1 测评基准的背景与意义</p>
+  <p style="margin-top:10px;text-indent:2em">8.2 时间序列测评基准的发展脉络</p>
+  <p style="margin-top:10px;text-indent:2em">8.3 时间序列测评基准框架</p>
+  <p style="margin-top:10px;text-indent:2em">8.4 数据层</p>
+  <p style="margin-top:10px;text-indent:2em">8.5 方法层</p>
+  <p style="margin-top:10px;text-indent:2em">8.6 评估层</p>
+  <p style="margin-top:10px;text-indent:2em">8.7 报告层</p>
                     </div>
                     <div>
                          <h3 style="border-bottom: 3px solid #333; width: fit-content">第9章：神经微分方程时间序列分析</h3>
-                          <p style="margin-top:10px;text-indent:2em">9.1 微分方程与时间序列</p>
+                           <p style="margin-top:10px;text-indent:2em">9.1 微分方程与时间序列</p>
                           <p style="margin-top:10px;text-indent:2em">9.2 神经微分方程简介</p>
-                          <p style="margin-top:10px;text-indent:2em">9.3 常微分方程求解的反模式自动求导</p>
-                          <p style="margin-top:10px;text-indent:2em">9.4 基于神经微分方程的时序建模</p>
-                          <p style="margin-top:10px;text-indent:2em">9.5 相关应用研究</p>
+                          <p style="margin-top:10px;text-indent:2em">9.3 相关应用研究</p>
                     </div>
                 </div>
             </div>
         </div>
     </foreignObject>
 </svg>
+
 
