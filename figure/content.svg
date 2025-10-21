@@ -94,7 +94,7 @@
                     <div>
                          <h3 style="border-bottom: 3px solid #333; width: fit-content">第9章：神经微分方程时间序列分析</h3>
                            <p style="margin-top:10px;text-indent:2em">9.1 微分方程与时间序列</p>
-                          <p style="margin-top:10px;text-indent:2em">9.2 神经微分方程简介</p>
+                          <p style="margin-top:10px;text-indent:2em">9.2 神经微分方程</p>
                           <p style="margin-top:10px;text-indent:2em">9.3 相关应用研究</p>
                     </div>
                 </div>
@@ -102,5 +102,6 @@
         </div>
     </foreignObject>
 </svg>
+
 
 
