@@ -9,7 +9,7 @@
 
 本书内容包括**介绍、基础概念、时间序列预测、时间序列异常检测、时间序列分类、自动化时间序列分析、时间序列基础模型、时间序列评测基准、神经微分方程时间序列分析**等九部分。每章内容均基于作者团队在相关方向的探索与实践整理而成，仅代表作者团队的理解，如有疏漏或错误，诚恳欢迎读者提出宝贵意见。未来，团队将继续拓展更多前沿方法、实用工具及评测标准，并逐步完善专著内容。
 
-当前本书完整的PDF下载路径：[时序智能.pdf](https://github.com/decisionintelligence/AI4TS/blob/main/Book/时序智能.pdf)。其他下载路径：[Google Drive](https://drive.google.com/file/d/1nw_Cjv15QJAg6o_vxhKhnddHxA6rashY/view?usp=sharing)，[百度网盘](https://pan.baidu.com/s/1Yg31u_QPvFnMDqcwvbEv1A?pwd=ejfx)。其中每个章节的内容目录如下所示。
+当前本书完整的PDF下载路径：[时序智能.pdf](https://github.com/decisionintelligence/AI4TS/blob/main/Book/时序智能.pdf)。其他下载路径：[Google Drive](https://drive.google.com/file/d/1nw_Cjv15QJAg6o_vxhKhnddHxA6rashY/view?usp=sharing)，[百度网盘](https://pan.baidu.com/s/15SPNgxovOJxDTHwIKocybA?pwd=3qna)。其中每个章节的内容目录如下所示。
 
 ## **章节结构**
 
